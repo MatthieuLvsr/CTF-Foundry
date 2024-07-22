@@ -1,5 +1,16 @@
 ## CTF
 
+#### Setup
+
+The first step is to setup your .env as follow :
+```.env
+SEPOLIA_RPC_URL=<YOUR_RPC_URL>
+PRIVATE_KEY=<YOUR_PRIVATE_KEY>
+
+HACKER_ADDRESS=<HACKER CONTRACT ADDRESS>
+TO_HACK=0x9D29D33d4329640e96cC259E141838EB3EB2f1d9
+```
+
 #### 1) Flip 🪙
 
 The objective is to predict 10 times the correct flip.
